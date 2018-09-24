@@ -1,5 +1,7 @@
 FROM ubuntu:latest
 
+RUN add-apt-repository ppa:webupd8team/java
+
 RUN apt-get -y update && apt-get -y upgrade
 
 RUN apt-get -y install openjdk-8-jdk wget
