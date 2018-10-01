@@ -3,9 +3,15 @@ pipeline{
    agent any
    
    stages{
-      stage('Example'){
+      stage('myStage'){
         steps{
-                 echo 'Hello Docker Example'
+                 sh 'ls -la'
+        }
+      }
+      
+      stage('Build'){
+        steps{
+                 sh 'ls'
         }
       }
    }
