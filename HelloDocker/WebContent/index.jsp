@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Future car search</title>
+<title>Search Your Next Car</title>
 </head>
 <body>
     <h1>Select the make of your future car</h1>
